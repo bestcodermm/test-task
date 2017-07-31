@@ -1,0 +1,408 @@
+ /* For mobile: */
+    body{
+        background: url(images/bg.jpg); 
+        color: #403f3f;
+        font-family: helvetica;
+        margin: 0;
+        padding: 0;
+    }
+       
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        background-color: #DCDCDC;
+        margin: 0;
+        position: relative;
+        padding: 1%;
+    }
+        
+    .headerText{
+        font-size: 180%;
+        font-weight: 300;
+        margin-left: 0;
+        padding: 1%;
+    }
+    .header ul{
+        list-style-type: none;   
+        position: absolute;
+        bottom: 0;
+        right: 2%;
+    }
+
+    .header li{
+        display: inline;
+        border-right: solid 2px #696969;
+    }
+    .header li a{
+        color: #0000CD;
+        padding-right: 2px;
+        margin-right: 2px;    
+    }
+
+    .content{
+        margin: 0;
+        padding: 0;
+    }
+
+    .content ul{  
+        list-style-type: none;
+        margin: 0;
+        padding: 1%;    
+        background-color: #C0C0C0;  
+    }
+
+    .content li{
+        display: inline;
+    }
+    .content a{
+        text-decoration: none;
+        color: #0000CD;
+        padding: 1%;
+    }
+    
+    .content li a:hover {
+        background-color: #D3D3D3;
+        color: #A9A9A9;
+    }
+
+    /* Style the active page link. */
+    .content li a.active{
+        background-color: #D3D3D3;
+        color: #A9A9A9;
+    }
+
+    .article{        
+        background-color: white; 
+
+        font-size: 14px;
+    }
+    .articleContent{
+        margin: 0;
+        padding: 2%;
+    }
+
+    .articleHeader{
+        font-size: 18px;
+        text-shadow: 1px 1px;
+        border-bottom: 3px solid #C0C0C0;     
+    }
+
+    .article img{
+        float: left;
+        margin: 2%;
+        max-width: auto;
+        max-height: 100%;
+
+    }
+
+    .aside {
+        background-color: #C0C0C0; 
+
+        font-size: 12px;
+    }
+
+    .asideContent{
+        margin: 0;
+        padding: 2%;
+    }
+
+    .asideHeader{
+        font-size: 18px;
+        text-shadow: 1px 1px;
+        border-bottom: solid 3px white;
+    }
+
+    .contentGallery{
+        width: 100%;
+    }
+
+    .aside span{
+        border-bottom: solid 2px black;
+        font-weight: bold;
+        font-size: 14px;
+
+
+    }
+    .footer{
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+    
+    @media only screen and (min-width: 600px) {
+        /* For tablet: */
+        body{
+           background: url(images/bg.jpg); 
+           color: #403f3f;
+           font-family: helvetica;
+        }
+        
+        .container{
+            width: 90%;
+            margin: auto;
+        }
+
+        .header{
+            background-color: #DCDCDC;
+            position: relative;
+            margin-top: 1%;
+            padding: 1%;
+        }
+        
+        .headerText{
+            font-size: 180%;
+            font-weight: 300;
+            margin-left: 0;
+            padding: 1%;
+        }
+        .header ul{
+            list-style-type: none;   
+            position: absolute;
+            bottom: 0;
+            right: 1%;
+        }
+        
+        .header li{
+            display: inline;
+            border-right: solid 2px #696969;
+        }
+        .header li a{
+            color: #0000CD;
+            padding-right: 2px;
+            margin-right: 2px;    
+        }
+        
+        .content{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .content ul{  
+            list-style-type: none;
+            margin: 0;
+            padding: 1%;    
+            background-color: #C0C0C0;  
+        }
+
+        .content li{
+            display: inline;
+        }
+        .content a{
+            text-decoration: none;
+            color: #0000CD;
+        }
+        
+        .content li a:hover {
+            background-color: #D3D3D3;
+            color: #A9A9A9;
+        }
+        
+        /* Style the active page link. */
+        .content li a.active{
+            background-color: #D3D3D3;
+            color: #A9A9A9;
+        }
+        
+        .article{        
+            background-color: white; 
+            font-size: 14px;
+        }
+        
+        .articleContent{
+            margin: 0;
+            padding: 2%;
+        }
+        .articleHeader{
+            font-size: 18px;
+            text-shadow: 1px 1px;
+            border-bottom: 3px solid #C0C0C0;     
+        }
+        
+        .article img{
+            float: left;
+            margin: 2%;
+            
+            max-height: 100%;
+            width:auto;
+        }
+             
+        .aside {
+            background-color: #C0C0C0; 
+            
+            font-size: 12px;
+        }
+        
+        .asideContent{
+            margin: 0;
+            padding: 2%;
+        }
+        
+        .asideHeader{
+            font-size: 18px;
+            text-shadow: 1px 1px;
+            border-bottom: solid 3px white;
+        }
+        
+        .contentGallery{
+            display: inline-block;
+            width: 30%;
+            vertical-align: text-top;
+            margin-right: 2%;
+        }
+    
+        .aside span{
+            border-bottom: solid 2px black;
+            font-weight: bold;
+            font-size: 14px;
+        
+            
+        }
+        .footer{
+            
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        /* For desktop: */
+         body{
+           background: url(images/bg.jpg); 
+           color: #403f3f;
+           font-family: helvetica;
+        }
+        
+        .container{
+            width: 80%;
+            margin: auto;
+        }
+
+        .header{
+            background-color: #DCDCDC;
+            margin-top: 1%;
+            padding: 3%;
+            position: relative;
+        }
+        
+        .headerText{
+            font-size: 250%;
+            font-weight: 300;
+            margin: 1%;
+        }
+        .header ul{
+            list-style-type: none;   
+            position: absolute;
+            font-size: 80%;
+            bottom: 0;
+            right: 2%;
+        }
+        
+        .header li{
+            display: inline;
+            border-right: solid 2px #696969;
+        }
+        .header li a{
+            color: #0000CD;
+            padding-right: 2px;
+            margin-right: 2px;    
+        }
+        
+        .content{
+            margin: 0;
+            display: flex;
+        }
+        
+        .content ul{  
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            flex:0 0 20%;    
+            background-color: #C0C0C0;
+        }
+
+    
+        .content a{
+            text-decoration: none;
+            border-bottom: solid 1px #D3D3D3;
+            display: block;
+            background-color: #A9A9A9;
+            padding: 3%;
+            color: #0000CD;
+
+        }
+        
+        /* Give the user an affordance that each link is clickable. */
+        .content li a:hover{
+            background-color: #D3D3D3;
+            color: #A9A9A9;
+        }
+        
+        /* Style the active page link. */
+        .content li a.active{
+            background-color: #D3D3D3;
+            color: #A9A9A9;
+            
+        }
+        
+        
+        .article{
+            background-color: white; 
+            flex: 0 0 60%; 
+            margin: 0;
+        }
+        
+         .articleContent{
+            margin: 0;
+            padding: 2%;
+            font-size: 14px;
+         }
+        .articleHeader{
+            font-size: 18px;
+            text-shadow: 1px 1px;
+            border-bottom: 3px solid #C0C0C0;     
+        }
+        
+        .article img{
+            float: left;
+            margin: 2%;
+            max-height: 100%;
+            width:auto;
+        }
+             
+        .aside {
+            background-color: #C0C0C0;
+            flex: 0 0 20%; 
+            margin: 0;
+        }
+        
+        .asideContent{
+            margin: 0;
+            padding: 4%;
+            font-size: 12px;
+        }
+        .asideHeader{
+            font-size: 18px;
+            text-shadow: 1px 1px;
+            border-bottom: solid 3px white;
+        }
+    
+        .aside span{
+            border-bottom: solid 2px black;
+            font-weight: bold;
+            font-size: 14px;
+            
+        }
+         
+         .contentGallery{
+             width: 100%;
+         }
+        .footer{
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+    }
+
